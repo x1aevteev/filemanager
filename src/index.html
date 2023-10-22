@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Console file manager</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="login item">
+            <h1>Log-in in system</h1>
+            <div class="login__form">
+                <input type="text" name="" id="" placeholder="Name">
+                <input type="password" placeholder="Password">
+                <button class="logBtn btn">Log-In</button>
+            </div>
+        </div>
+
+        <div class="menu item">
+            <h1>List of apps</h1>
+            <div class="list">
+                <div class="list__links">
+                    <button class="managerBtn btn">Open file manager</button>
+                    <button class="systemBtn btn">Open system info</button>
+                    <button class="quizBtn btn">Open quiz</button>
+                    <button class="developerBtn btn">Check info about developer</button>
+                    <button class="logOutBtn btn">Log out</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="app item">       
+            <div class="working-space">
+                <h1>Console file manager</h1>
+                <div class="working-space__addCase">
+                    <div class="addCase__input">
+                        <button class="addCaseBtn btn">Add</button>
+                    </div>
+                </div>
+                <div class="working-space__cases">
+                    <ul class="cases-list">
+                        <!-- <li class="case">
+                            <div class="case__heading">
+                                <img src="./img/svg/folder_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <h2>Folder <span>↓</span></h2>
+                            </div>   
+                            <div class="case__accordeon">
+                                <div class="accordeon__input">
+                                    <input type="text" name="" id="" placeholder="Input point name">
+                                    <button class="addCaseBtn btn">Add</button>
+                                </div>
+                                <ul class="accordeon__points">
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                </ul>
+                                <button class="accordeon__close closeBtn btn">Close</button>
+                            </div>
+                        </li>
+                        <li class="case">
+                            <div class="case__heading">
+                                <img src="./img/svg/folder_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <h2>Folder <span>↓</span></h2>
+                            </div>  
+                            <div class="case__accordeon">
+                                <div class="accordeon__input">
+                                    <input type="text" name="" id="" placeholder="Input point name">
+                                    <button class="addCaseBtn btn">Add</button>
+                                </div>
+                                <ul class="accordeon__points">
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                </ul>
+                                <button class="accordeon__close closeBtn btn">Close</button>
+                            </div>
+                        </li>
+                        <li class="case">
+                            <div class="case__heading">
+                                <img src="./img/svg/folder_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <h2>Folder <span>↓</span></h2>
+                            </div>  
+                            <div class="case__accordeon">
+                                <div class="accordeon__input">
+                                    <input type="text" name="" id="" placeholder="Input point name">
+                                    <button class="addCaseBtn btn">Add</button>
+                                </div>
+                                <ul class="accordeon__points">
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                </ul>
+                                <button class="accordeon__close closeBtn btn">Close</button>
+                            </div>
+                        </li>
+                        <li class="case">
+                            <div class="case__heading">
+                                <img src="./img/svg/folder_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                                <h2>Folder <span>↓</span></h2>
+                            </div>  
+                            <div class="case__accordeon">
+                                <div class="accordeon__input">
+                                    <input type="text" name="" id="" placeholder="Input point name">
+                                    <button class="addCaseBtn btn">Add</button>
+                                </div>
+                                <ul class="accordeon__points">
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                    <li class="point">Point</li>
+                                </ul>
+                                <button class="accordeon__close closeBtn btn">Close</button>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                    <buttton class="working-space__close closeBtn btn">Close</buttton>
+            </div>
+        </div>
+
+        <div class="system item">
+            <h1>Information about System</h1>
+            <div class="system__info">
+                <h2>Check your system</h2>
+                <select name="" id="" class="select-system">
+                    <option value="0">Check system</option>
+                    <option value="1">Windows</option>
+                    <option value="2">Linux</option>
+                    <option value="3">MacOs</option>
+                </select>
+            </div>
+            <div class="system__close">
+                <buttton class="system__close closeBtn btn">Close</buttton>
+            </div>       
+        </div>
+
+
+        <div class="quiz item">
+            <h1>Quiz app</h1>
+            <div class="quiz__place"></div>
+            <div class="quiz__close">
+                <buttton class="closeBtn btn">Close</buttton>
+            </div> 
+        </div>
+
+        <div class="developer">   
+            <div class="developer__head"><h1>Artem Evteev</h1></div>
+            <div class="developer__photo">
+                <img src="./img/developer.jpg" alt="">
+            </div>
+            <div class="developer__info">
+                <p>Hi, my name is Artem Evteem. I'm young 19 y.o frontEnd-developer. I'm just learing, but doing it progressively.</p>
+            </div>
+            <div class="developer__close">
+                <buttton class="closeBtn btn">Close</buttton>
+            </div>
+        </div>
+
+        <!-- <div class="roulette">
+            <ul class="roulette__row">
+                <li class="item">1</li>
+                <li class="item">2</li>
+                <li class="item">3</li>
+                <li class="item">4</li>
+                <li class="item">5</li>
+            </ul>
+        </div> -->
+
+        
+    </div>
+
+
+
+
+
+
+    <script src="./js/srcipt.js"></script>
+</body>
+</html>
